@@ -1,0 +1,2 @@
+To start with this, go and install pyautogui
+to install it, just type 'pip install pyautogui' in your terminal and it will install it.
