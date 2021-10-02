@@ -1,18 +1,10 @@
-import pyautogui
+import pyautogui as pyauto
 import time
 
-text = input('What is he message that you want to send?:')
-n = input('How many times should I send this message?:')
-
-print("IMMA CHARGIN' MAH LASER...")
-
-c = 5
-while c != 0:
-    print(c)
+time.sleep(5) #You can adjust time.sleep() as per your choice
+while True:
+    pyauto.write("Hello World") #You can type in whatever message you want to send
+    pyauto.press("enter")
     time.sleep(1)
-    c -= 1
-
-print("FLOODING NOW...")
-
-for n in range(0, int(n)):
-    pyautogui.typewrite(text + '\n')
+    
+#And now you are ready to trouble your friends!!    
